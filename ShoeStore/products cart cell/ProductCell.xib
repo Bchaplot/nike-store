@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ProductCell" customModule="ShoeStore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="249"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="249"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="biX-Vo-mQt">
+                        <rect key="frame" x="0.0" y="0.0" width="180" height="249"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" image="nike32" translatesAutoresizingMaskIntoConstraints="NO" id="aKf-gC-CUa">
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="177"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tatum 2 PF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SY3-Dl-NoK">
+                                <rect key="frame" x="5" y="185" width="170" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basketball shoes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9tT-pO-2DU">
+                                <rect key="frame" x="5" y="214" width="170" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MRP : 5,000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3m-7K-P01">
+                                <rect key="frame" x="5" y="228" width="170" height="11"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="l3m-7K-P01" secondAttribute="bottom" constant="10" id="2Kj-tf-wi0"/>
+                            <constraint firstItem="l3m-7K-P01" firstAttribute="top" secondItem="9tT-pO-2DU" secondAttribute="bottom" constant="2" id="GV4-Hn-Do2"/>
+                            <constraint firstAttribute="width" constant="180" id="U3Q-fC-0vd"/>
+                            <constraint firstItem="SY3-Dl-NoK" firstAttribute="top" secondItem="aKf-gC-CUa" secondAttribute="bottom" constant="8" symbolic="YES" id="WAC-a7-dOW"/>
+                            <constraint firstAttribute="trailing" secondItem="l3m-7K-P01" secondAttribute="trailing" constant="5" id="XNE-a5-p8u"/>
+                            <constraint firstAttribute="trailing" secondItem="aKf-gC-CUa" secondAttribute="trailing" id="a5t-qe-eXZ"/>
+                            <constraint firstItem="aKf-gC-CUa" firstAttribute="leading" secondItem="biX-Vo-mQt" secondAttribute="leading" id="c6r-f9-I8X"/>
+                            <constraint firstItem="SY3-Dl-NoK" firstAttribute="leading" secondItem="biX-Vo-mQt" secondAttribute="leading" constant="5" id="cqe-mp-pHX"/>
+                            <constraint firstItem="l3m-7K-P01" firstAttribute="leading" secondItem="biX-Vo-mQt" secondAttribute="leading" constant="5" id="fFE-7U-ARq"/>
+                            <constraint firstAttribute="trailing" secondItem="9tT-pO-2DU" secondAttribute="trailing" constant="5" id="gwa-nz-9q7"/>
+                            <constraint firstAttribute="height" constant="249" id="pT2-kv-Tx4"/>
+                            <constraint firstItem="9tT-pO-2DU" firstAttribute="leading" secondItem="biX-Vo-mQt" secondAttribute="leading" constant="5" id="qFw-ef-HWL"/>
+                            <constraint firstAttribute="trailing" secondItem="SY3-Dl-NoK" secondAttribute="trailing" constant="5" id="r2M-Nm-CmU"/>
+                            <constraint firstItem="aKf-gC-CUa" firstAttribute="top" secondItem="biX-Vo-mQt" secondAttribute="top" id="t0s-Zc-mB0"/>
+                            <constraint firstItem="9tT-pO-2DU" firstAttribute="top" secondItem="SY3-Dl-NoK" secondAttribute="bottom" constant="8" symbolic="YES" id="vqe-sw-tZD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="biX-Vo-mQt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0CN-3h-WhV"/>
+                <constraint firstAttribute="bottom" secondItem="biX-Vo-mQt" secondAttribute="bottom" id="ABg-Bq-iXb"/>
+                <constraint firstAttribute="trailing" secondItem="biX-Vo-mQt" secondAttribute="trailing" id="OKe-vr-ckj"/>
+                <constraint firstItem="biX-Vo-mQt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="m2n-P9-TZz"/>
+            </constraints>
+            <size key="customSize" width="180" height="249"/>
+            <connections>
+                <outlet property="productCategory" destination="9tT-pO-2DU" id="jOq-d8-fNP"/>
+                <outlet property="productImage" destination="aKf-gC-CUa" id="7em-tn-qYW"/>
+                <outlet property="productPrice" destination="l3m-7K-P01" id="7i4-Uu-BDS"/>
+                <outlet property="productTitle" destination="SY3-Dl-NoK" id="fpI-Mv-Xuh"/>
+            </connections>
+            <point key="canvasLocation" x="238.1679389312977" y="13.732394366197184"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="nike32" width="92.333335876464844" height="60.666667938232422"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

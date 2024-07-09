@@ -9,21 +9,27 @@ import UIKit
 
 class Addtocart_VC: UIViewController {
 
+    @IBOutlet weak var TableView: UITableView!
+    
+    @IBOutlet weak var Estimatedtotal: UILabel!
+    @IBOutlet weak var Subtotal: UILabel!
+    @IBOutlet weak var Shipping: UILabel!
+    @IBOutlet weak var ShippingRs: UILabel!
+    @IBOutlet weak var TotalRs: UILabel!
+    @IBOutlet weak var EstimatedRs: UILabel!
+    
+    let postdata: [[String: Any]] = [
+        [
+            "Image" : "nike1" ,
+            "Productname": "Nike Air Force 1'07",
+            "Productcategory" : "Men's Shoes",
+            "ProductPrice" : "MRP : Rs 7495"
+        ]
+    ]
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.TableView.register(UINib(nibName: "Addtocart", bundle: nil), forCellReuseIdentifier: "Addtocart")
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

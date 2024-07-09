@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCASX9KGPjujvnQ0WM_W9WD0LI9svFvMLc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>76875957027</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ankit.ShoeStore.ShoeStore</string>
+	<key>PROJECT_ID</key>
+	<string>nikeshoestore19</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nikeshoestore19.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:76875957027:ios:7b1e6271ce1261e3b18296</string>
+</dict>
+</plist>

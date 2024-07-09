@@ -9,6 +9,13 @@ import UIKit
 
 class Addtocart: UITableViewCell {
 
+    @IBOutlet weak var ProductName: UILabel!
+    @IBOutlet weak var ProductCategory: UILabel!
+    
+    @IBOutlet weak var Size: UILabel!
+    @IBOutlet weak var Incl: UILabel!
+    @IBOutlet weak var Duties: UILabel!
+    @IBOutlet weak var MRP: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

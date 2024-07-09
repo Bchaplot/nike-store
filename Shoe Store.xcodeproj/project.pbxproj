@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2911482E2C1D4443009F77B1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911482C2C1D4443009F77B1 /* CollectionViewCell.swift */; };
+		2911482F2C1D4443009F77B1 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2911482D2C1D4443009F77B1 /* CollectionViewCell.xib */; };
+		2949A1672C2EA76400DA64CD /* Addtocart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2949A1652C2EA76400DA64CD /* Addtocart.swift */; };
+		2949A1682C2EA76400DA64CD /* Addtocart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2949A1662C2EA76400DA64CD /* Addtocart.xib */; };
+		2949A16C2C2EA86400DA64CD /* Addtocart_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2949A16B2C2EA86400DA64CD /* Addtocart_VC.swift */; };
 		29CE7C582C194BFA00ABA38B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CE7C572C194BFA00ABA38B /* AppDelegate.swift */; };
 		29CE7C5A2C194BFA00ABA38B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CE7C592C194BFA00ABA38B /* SceneDelegate.swift */; };
 		29CE7C5C2C194BFA00ABA38B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CE7C5B2C194BFA00ABA38B /* ViewController.swift */; };
-		29CE7C5F2C194BFA00ABA38B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CE7C5D2C194BFA00ABA38B /* Main.storyboard */; };
+		29CE7C5F2C194BFA00ABA38B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CE7C5D2C194BFA00ABA38B /* Home.storyboard */; };
 		29CE7C612C194BFD00ABA38B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29CE7C602C194BFD00ABA38B /* Assets.xcassets */; };
 		29CE7C642C194BFD00ABA38B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CE7C622C194BFD00ABA38B /* LaunchScreen.storyboard */; };
+		29F297762C2BFA4800DCE441 /* Home_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F297752C2BFA4800DCE441 /* Home_VC.swift */; };
+		FFAFDC0041A896DA59B2A189 /* Pods_Shoe_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E8E02C13D049C359F93CE0 /* Pods_Shoe_Store.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2911482C2C1D4443009F77B1 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		2911482D2C1D4443009F77B1 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		2949A1652C2EA76400DA64CD /* Addtocart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addtocart.swift; sourceTree = "<group>"; };
+		2949A1662C2EA76400DA64CD /* Addtocart.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Addtocart.xib; sourceTree = "<group>"; };
+		2949A16B2C2EA86400DA64CD /* Addtocart_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addtocart_VC.swift; sourceTree = "<group>"; };
 		29CE7C542C194BFA00ABA38B /* Shoe Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoe Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29CE7C572C194BFA00ABA38B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29CE7C592C194BFA00ABA38B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		29CE7C5B2C194BFA00ABA38B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29CE7C5E2C194BFA00ABA38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29CE7C5E2C194BFA00ABA38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		29CE7C602C194BFD00ABA38B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29CE7C632C194BFD00ABA38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29CE7C652C194BFD00ABA38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F297752C2BFA4800DCE441 /* Home_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_VC.swift; sourceTree = "<group>"; };
+		351D97B0FBAB31C91D89D679 /* Pods-Shoe Store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoe Store.debug.xcconfig"; path = "Target Support Files/Pods-Shoe Store/Pods-Shoe Store.debug.xcconfig"; sourceTree = "<group>"; };
+		91E8E02C13D049C359F93CE0 /* Pods_Shoe_Store.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shoe_Store.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBD3770D8161215FA638432 /* Pods-Shoe Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoe Store.release.xcconfig"; path = "Target Support Files/Pods-Shoe Store/Pods-Shoe Store.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFAFDC0041A896DA59B2A189 /* Pods_Shoe_Store.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				29CE7C562C194BFA00ABA38B /* Shoe Store */,
 				29CE7C552C194BFA00ABA38B /* Products */,
+				38B6D22F6B00D65F533BBD37 /* Pods */,
+				998A0264CC572196F4E1BE3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +78,35 @@
 				29CE7C572C194BFA00ABA38B /* AppDelegate.swift */,
 				29CE7C592C194BFA00ABA38B /* SceneDelegate.swift */,
 				29CE7C5B2C194BFA00ABA38B /* ViewController.swift */,
-				29CE7C5D2C194BFA00ABA38B /* Main.storyboard */,
+				29CE7C5D2C194BFA00ABA38B /* Home.storyboard */,
 				29CE7C602C194BFD00ABA38B /* Assets.xcassets */,
 				29CE7C622C194BFD00ABA38B /* LaunchScreen.storyboard */,
 				29CE7C652C194BFD00ABA38B /* Info.plist */,
+				2911482C2C1D4443009F77B1 /* CollectionViewCell.swift */,
+				2911482D2C1D4443009F77B1 /* CollectionViewCell.xib */,
+				29F297752C2BFA4800DCE441 /* Home_VC.swift */,
+				2949A1652C2EA76400DA64CD /* Addtocart.swift */,
+				2949A1662C2EA76400DA64CD /* Addtocart.xib */,
+				2949A16B2C2EA86400DA64CD /* Addtocart_VC.swift */,
 			);
 			path = "Shoe Store";
+			sourceTree = "<group>";
+		};
+		38B6D22F6B00D65F533BBD37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				351D97B0FBAB31C91D89D679 /* Pods-Shoe Store.debug.xcconfig */,
+				DCBD3770D8161215FA638432 /* Pods-Shoe Store.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		998A0264CC572196F4E1BE3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91E8E02C13D049C359F93CE0 /* Pods_Shoe_Store.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29CE7C682C194BFD00ABA38B /* Build configuration list for PBXNativeTarget "Shoe Store" */;
 			buildPhases = (
+				D087D1CD31B0D7A9B063CEBE /* [CP] Check Pods Manifest.lock */,
 				29CE7C502C194BFA00ABA38B /* Sources */,
 				29CE7C512C194BFA00ABA38B /* Frameworks */,
 				29CE7C522C194BFA00ABA38B /* Resources */,
+				AAE2C15AB9D9701CD08E5375 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +171,67 @@
 			files = (
 				29CE7C642C194BFD00ABA38B /* LaunchScreen.storyboard in Resources */,
 				29CE7C612C194BFD00ABA38B /* Assets.xcassets in Resources */,
-				29CE7C5F2C194BFA00ABA38B /* Main.storyboard in Resources */,
+				2911482F2C1D4443009F77B1 /* CollectionViewCell.xib in Resources */,
+				29CE7C5F2C194BFA00ABA38B /* Home.storyboard in Resources */,
+				2949A1682C2EA76400DA64CD /* Addtocart.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AAE2C15AB9D9701CD08E5375 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shoe Store/Pods-Shoe Store-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shoe Store/Pods-Shoe Store-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shoe Store/Pods-Shoe Store-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D087D1CD31B0D7A9B063CEBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shoe Store-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		29CE7C502C194BFA00ABA38B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F297762C2BFA4800DCE441 /* Home_VC.swift in Sources */,
 				29CE7C5C2C194BFA00ABA38B /* ViewController.swift in Sources */,
+				2949A1672C2EA76400DA64CD /* Addtocart.swift in Sources */,
+				2949A16C2C2EA86400DA64CD /* Addtocart_VC.swift in Sources */,
 				29CE7C582C194BFA00ABA38B /* AppDelegate.swift in Sources */,
+				2911482E2C1D4443009F77B1 /* CollectionViewCell.swift in Sources */,
 				29CE7C5A2C194BFA00ABA38B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,12 +239,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		29CE7C5D2C194BFA00ABA38B /* Main.storyboard */ = {
+		29CE7C5D2C194BFA00ABA38B /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				29CE7C5E2C194BFA00ABA38B /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		29CE7C622C194BFD00ABA38B /* LaunchScreen.storyboard */ = {
@@ -287,12 +379,14 @@
 		};
 		29CE7C692C194BFD00ABA38B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351D97B0FBAB31C91D89D679 /* Pods-Shoe Store.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 43SHX3TW49;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shoe Store/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,12 +409,14 @@
 		};
 		29CE7C6A2C194BFD00ABA38B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCBD3770D8161215FA638432 /* Pods-Shoe Store.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 43SHX3TW49;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shoe Store/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
